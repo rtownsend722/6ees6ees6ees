@@ -1,5 +1,5 @@
 class RetiredForagerBee extends ForagerBee {
-  constuctor(food, treasureChest) {
+  constructor(food, treasureChest) {
     super(food, treasureChest);
     // an age property that is set to 40
     this.age = 40;
@@ -17,5 +17,3 @@ class RetiredForagerBee extends ForagerBee {
     this.treasureChest.push(treasure);
   };
 };
-
-let myBee = new RetiredForagerBee(); 
